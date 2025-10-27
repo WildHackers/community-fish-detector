@@ -17,11 +17,11 @@ These models represent an initial training effort. They perform reasonably well 
 4. [Example predictions](#example-predictions)  
 
 
-## Model
+## Models
 
-| File Name | Architecture | Input image size | Target classes | Dataset | License |
-|--|--|--|--|--|--|--|
-| cfd_yolov12x.pt | YOLOv12x 1024 |  1 (fish) | [Community Fish Detection Dataset]([url](https://lila.science/datasets/community-fish-detection-dataset/)) | AGPL |
+| Model | Architecture | Input image size | Target classes | Dataset | License |
+|--|--|--|--|--|--|
+| [cfd-yolov12x-1.00.pt](https://github.com/WildHackers/community-fish-detector/releases/download/cfd-1.00-yolov12x/cfd-yolov12x-1.00.pt) | [YOLOv12x](https://docs.ultralytics.com/models/yolo12/) | 1024 |  1 (fish) | [Community Fish Detection Dataset]([url](https://lila.science/datasets/community-fish-detection-dataset/)) | AGPL |
 
 ## Quick start
 
@@ -53,7 +53,7 @@ results = model.predict(source="path/to/images_or_videos", imgsz=1024)
 results[0].show()
 ```
 
-⚠️ Remember to set the image size `imgsz=1024`
+⚠️ Remember to set the image size to 1024 (`imgsz=1024`); YOLO inference tools default to an image size of 640.
 
 
 ## Contributors
