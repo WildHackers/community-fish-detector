@@ -2,7 +2,7 @@
 
 This repository provides pretrained object detection models for identifying one class: “fish”.
 
-The model was trained on the [Community Fish Detection Dataset]([url](https://lila.science/datasets/community-fish-detection-dataset/)), a collaboratively built, large-scale dataset that unifies >1.9 million images and >935,000 fish bounding boxes from 17 open datasets spanning freshwater, marine, and lab environments.
+The model was trained on the [Community Fish Detection Dataset](https://lila.science/datasets/community-fish-detection-dataset), a collaboratively built, large-scale dataset that unifies >1.9 million images and >935,000 fish bounding boxes from 17 open datasets spanning freshwater, marine, and lab environments.
 
 With this project, our goal is to detect any fish, anywhere. 
 
@@ -21,7 +21,7 @@ These models represent an initial training effort. They perform reasonably well 
 
 | Model | Architecture | Input image size | Target classes | Dataset | License |
 |--|--|--|--|--|--|
-| [cfd-yolov12x-1.00.pt](https://github.com/WildHackers/community-fish-detector/releases/download/cfd-1.00-yolov12x/cfd-yolov12x-1.00.pt) | [YOLOv12x](https://docs.ultralytics.com/models/yolo12/) | 1024 |  1 (fish) | [Community Fish Detection Dataset]([url](https://lila.science/datasets/community-fish-detection-dataset/)) | AGPL |
+| [cfd-yolov12x-1.00.pt](https://github.com/WildHackers/community-fish-detector/releases/download/cfd-1.00-yolov12x/cfd-yolov12x-1.00.pt) | [YOLOv12x](https://docs.ultralytics.com/models/yolo12/) | 1024 |  1 (fish) | [Community Fish Detection Dataset](https://lila.science/datasets/community-fish-detection-dataset) | AGPL |
 
 ## Quick start
 
