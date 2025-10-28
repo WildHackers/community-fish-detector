@@ -77,6 +77,7 @@ If you:
 
 Below we want to provide some move visual examples that overlay the ground truth with the model detections, to give you a qualitative sense of the model's training domain.
 
+<img src="./assets/example7.png" />
 <img src="./assets/example1.png" />
 <img src="./assets/example2.png" />
 <img src="./assets/example3.png" />
