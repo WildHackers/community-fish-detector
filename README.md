@@ -32,6 +32,9 @@ git clone https://github.com/WildHackers/community-fish-detector.git
 cd community-fish-detector
 ```
 
+### Download the model weights
+- You can find and download the `.pt` models from the [GitHub Releases]([url](https://github.com/WildHackers/community-fish-detector/releases))
+
 ### Install dependencies
 
 ```bash
@@ -44,7 +47,7 @@ pip install ultralytics
 from ultralytics import YOLO
 
 # Load model
-model = YOLO("cfd_yolov12x.pt")
+model = YOLO("path/to/your/model.pt")
 
 # Run on an image or folder
 results = model.predict(source="path/to/images_or_videos", imgsz=1024)
