@@ -15,6 +15,7 @@ These models represent an initial training effort. They perform reasonably well 
 2. [Quick start](#quick-start)  
 3. [Contributors](#contributors)
 4. [Example predictions](#example-predictions)  
+5. [Also see](#also-see)  
 
 
 ## Models
@@ -63,15 +64,9 @@ results[0].show()
 
 This model was created by a collective effort of the following folks: <a href="https://www.linkedin.com/in/filippo-varini/">Filippo Varini</a>, <a href="https://dmorris.net">Dan Morris</a>, <a href="https://www.linkedin.com/in/sonny-burniston/">Sonny Burniston</a>, <a href="https://www.oceaneboulais.net/">Oceane Boulais</a>, <a href="https://www.mbari.org/person/kevin-barnard/">Kevin Barnard</a>, <a href="https://www.mbari.org/person/laura-chrobak/">Laura Chrobak</a>, <a href="https://alexvmt.github.io/">Alexander Merdian-Tarko</a>, <a href="https://www.linkedin.com/in/kameswari-devi-ayyagari-031820b7/">Devi Ayyagari</a>, <a href="https://www.linkedin.com/in/mona-dhiflaoui/">Mona Dhiflaoui</a>, <a href="https://www.linkedin.com/in/jiashu-chen-w/">Joshua Chen</a>, and many others.
 
-If you don't see your name, please [email us](mailto:fppvrn@gmail.com)!
+If you don't see your name, please [email us](mailto:fppvrn@gmail.com).
 
-We welcome further contributions!
-
-If you:
-- Have a dataset that could expand coverage,
-- Want to contribute to improving the model,
-
-...please [reach out](mailto:fppvrn@gmail.com)!
+We welcome further contributions; if you have a dataset that could expand coverage, or want to contribute to improving the model, please [reach out](mailto:fppvrn@gmail.com)!
 
 ## Example Predictions
 
@@ -84,3 +79,7 @@ Below we want to provide some move visual examples that overlay the ground truth
 <img src="./assets/example4.png" />
 <img src="./assets/example5.png" />
 <img src="./assets/example6.png" />
+
+## Also see
+
+* [Hugging Face Space](https://huggingface.co/spaces/FathomNet/community-fish-detector) for this model set up by the [FathomNet](https://www.fathomnet.org/) community.
